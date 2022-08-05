@@ -2,14 +2,14 @@ import React from 'react'
 
 function Copy() {
     const date = new Date().getFullYear();
-    return ( "© " + date + " by Razz Illfigure");
+    return date;
 }
 
 
 export default function Copyright() {
   return (
     <div className='copyright'>
-      {Copy}
+      © {Copy} by Razz Illfigure
     </div>
   )
 }
