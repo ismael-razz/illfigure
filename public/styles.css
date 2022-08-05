@@ -297,7 +297,10 @@ a{
 @media only screen and (min-width: 375px ) 
 and (max-width: 667px){
     .welcome{
-        display: none;
+        float: left;
+        font-size: 100px;
+        text-align: center;
+        justify-self: center;
     }
 
     .zr1{
@@ -321,7 +324,7 @@ and (max-width: 667px){
     width: 100%;
     font-size: 72px;
     text-align: center;
-    justify-self: center ;
+    justify-self: center;
 }
 
     .selected{
