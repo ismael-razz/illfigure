@@ -298,7 +298,10 @@ a{
 and (max-width: 667px){
     .welcome{
         position:absolute;
-        top: 25%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-40%, -40%);
         font-size: 72px;
         color:#f1f1f1;
     }
