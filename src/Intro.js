@@ -1,7 +1,5 @@
 import React from 'react'
 
-// <span className='simple'>simple</span> and <span className='clean'>clean</span
-
 export default function Intro() {
   return (
     <div id= "about" className='main-intro'>

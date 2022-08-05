@@ -1,17 +1,13 @@
 import React from 'react'
-import STRUT1 from './components/strut11.jpg'
 import STRUT2 from './components/strut12.jpg'
 import STRUT3 from './components/strut14.jpg'
 import GROUP1 from './components/Group1.jpg'
-import GROUP5 from './components/Group5.jpg'
 import GROUP6 from './components/Group6.jpg'
-import GROUP4 from './components/Group4.jpg'
 import GIRLZ2 from './components/GIRLZ2.jpg'
 import BULA from './components/BULA.PNG'
-import TEXAS from './components/TEXAS.PNG'
 import FALCON from './components/FALCON.PNG'
 import TACO from './components/TACO.PNG'
-import XTORC from './components/XTORC1.PNG'
+
 
 export default function Web() {
   return (
@@ -19,8 +15,6 @@ export default function Web() {
     <section className='webs'>
           <div className='selected'>Selected Artworks</div>
       <div className='row' >
-
-    
       
       </div>
       <div className='column'>

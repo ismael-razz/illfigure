@@ -6,7 +6,6 @@ export default function Footer() {
     <div>
       <footer id='contact'>
       <br></br>
-
       <a href='https://www.instagram.com/ismael.razz/' className='icons'><FaInstagram /></a>
       <a href='https://github.com/ismael-razz' className='icons'><FaGithub /></a>
       </footer>
