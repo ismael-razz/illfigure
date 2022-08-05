@@ -299,6 +299,18 @@ a{
         width: 100%;
     }
 
+    .zr1{
+        width: 100%;
+    }
+
+.ir2{
+    width: 100%;
+}
+
+.mind{
+    width: 100%;
+}
+
     .selected{
         font-weight: 500;
         font-family: 'Sansita Swashed', cursive;
@@ -313,16 +325,21 @@ a{
 }
 
 
-@media screen and (max-width: 767px ){
+@media screen and (min-width: 700px ){
     .welcome{
-        text-align: center;
-        align-items: center;
-        font-size: 100px;
-        color: #f1f1f1;
-        left:auto;
-        right: auto;
-        top: 25px;
+        width: 100%;
     }
+    .zr1{
+        width: 100%;
+    }
+
+.ir2{
+    width: 100%;
+}
+
+.mind{
+    width: 100%;
+}
 
     .selected{
         font-weight: 500;
