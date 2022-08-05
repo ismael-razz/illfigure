@@ -299,11 +299,7 @@ and (max-width: 667px){
     .welcome{
         position:absolute;
         top: 25%;
-        align-items: center;
-        right: 25%;
-        left: 25%;
-        bottom:0;
-        font-size: 96px;
+        font-size: 72px;
         color:#f1f1f1;
     }
 
