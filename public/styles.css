@@ -374,5 +374,10 @@ and (max-width: 667px){
 
 }
 
+.copyright{
+    color: #f1f1f1;
+    font-size: 32px;
+    padding: 10px;
+}
 
 
