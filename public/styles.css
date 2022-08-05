@@ -297,10 +297,14 @@ a{
 @media only screen and (min-width: 375px ) 
 and (max-width: 667px){
     .welcome{
-        float: left;
-        font-size: 100px;
-        text-align: center;
-        justify-self: center;
+        position:absolute;
+        top: 25%;
+        align-items: center;
+        right: 25%;
+        left: 25%;
+        bottom:0;
+        font-size: 96px;
+        color:#f1f1f1;
     }
 
     .zr1{
