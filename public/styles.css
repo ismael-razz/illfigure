@@ -78,7 +78,6 @@ a:hover{
  .zr1{
     display: block;
     position: relative;
-    text-align: center;
     height: 100%;
     object-fit: cover;
     object-position: center;
@@ -294,12 +293,62 @@ a{
     color: #fff;
 }
 
-@media screen and (min-width: 350px ){
+@media only screen and (min-width: 375px ) 
+and (max-width: 667px){
     .welcome{
-        width: 100%;
+        justify-self: center;
     }
 
     .zr1{
+        display: block;
+        position: relative;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        width: 100%;
+    }
+
+.ir2{
+        position: relative;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    
+}
+
+.mind{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    justify-self: center ;
+}
+
+    .selected{
+        font-weight: 500;
+        font-family: 'Sansita Swashed', cursive;
+        color: #fff;
+        font-size: 100px;
+        width: 90%;
+    }
+
+    .web{
+        max-width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 1280px ){
+    .welcome{
+        width: 50%;
+    }
+    .zr1{
+        display: block;
+        position: relative;
+        text-align: center;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
         width: 100%;
     }
 
@@ -325,32 +374,4 @@ a{
 }
 
 
-@media screen and (min-width: 700px ){
-    .welcome{
-        width: 100%;
-    }
-    .zr1{
-        width: 100%;
-    }
-
-.ir2{
-    width: 100%;
-}
-
-.mind{
-    width: 100%;
-}
-
-    .selected{
-        font-weight: 500;
-        font-family: 'Sansita Swashed', cursive;
-        color: #fff;
-        font-size: 100px;
-    }
-
-    .web{
-        max-width: 100%;
-    }
-
-}
 
