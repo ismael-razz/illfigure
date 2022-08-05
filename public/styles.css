@@ -154,10 +154,11 @@ a:hover{
 
 .me{
     font-size: 110px;
-    font-weight: 800;
+    font-weight: bold;
     font-family: 'Manrope', sans-serif;
     text-align: center;
     padding: 3px;
+    margin-bottom: 2%;
 }
 .upcoming{
     font-size: 64px;
@@ -296,7 +297,7 @@ a{
 @media only screen and (min-width: 375px ) 
 and (max-width: 667px){
     .welcome{
-        justify-self: center;
+        display: none;
     }
 
     .zr1{
