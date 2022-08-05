@@ -9,8 +9,8 @@ export default function Footer() {
       <br></br>
       <a href='https://www.instagram.com/ismael.razz/' className='icons'><FaInstagram /></a>
       <a href='https://github.com/ismael-razz' className='icons'><FaGithub /></a>
-      </footer>
       <Copyright />
+      </footer>
     </div>
   )
 }
