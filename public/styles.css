@@ -294,9 +294,9 @@ a{
     color: #fff;
 }
 
-@media only screen and (max-width: 375px ){
+@media screen and (min-width: 350px ){
     .welcome{
-        display: none;
+        width: 100%;
     }
 
     .selected{
@@ -313,7 +313,7 @@ a{
 }
 
 
-@media only screen and (max-width: 767px ){
+@media screen and (max-width: 767px ){
     .welcome{
         text-align: center;
         align-items: center;
