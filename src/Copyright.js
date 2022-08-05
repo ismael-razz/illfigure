@@ -1,9 +1,8 @@
 import React from 'react'
-import { useState } from 'react'
 
 function Copy() {
     const date = new Date().getFullYear();
-    return "© " + date + "by Razz Illfigure"
+    return ( "© " + date + " by Razz Illfigure");
 }
 
 
