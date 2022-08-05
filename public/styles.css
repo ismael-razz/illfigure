@@ -381,4 +381,10 @@ and (max-width: 667px){
     padding: 7px;
 }
 
+.privacy{
+    color:#000;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 3px;
+}
 

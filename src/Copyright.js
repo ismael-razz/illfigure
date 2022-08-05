@@ -8,8 +8,8 @@ function Copy() {
 
 export default function Copyright() {
   return (
-    <div className='copyright'>
-      © {Copy} by Razz Illfigure
+    <div>
+      <p className='copyright'>© {Copy} by Razz Illfigure</p>
     </div>
   )
 }
