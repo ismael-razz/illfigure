@@ -13,7 +13,7 @@ export default function Web() {
   return (
     <div className='webwork'>
     <section className='webs'>
-          <div className='selected'>Selected Artworks</div>
+          <div className='selected'>Selected Art</div>
       <div className='row' >
       
       </div>
