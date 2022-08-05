@@ -294,15 +294,9 @@ a{
     color: #fff;
 }
 
-@media only screen and (max-width: 300px ){
+@media only screen and (max-width: 375px ){
     .welcome{
-        text-align: center;
-        align-items: center;
-        font-size: 100px;
-        color: #f1f1f1;
-        left:auto;
-        right: auto;
-        top: 25px;
+        display: none;
     }
 
     .selected{
