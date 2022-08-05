@@ -294,7 +294,7 @@ a{
     color: #fff;
 }
 
-@media only screen and (max-width: 500px ){
+@media only screen and (max-width: 300px ){
     .welcome{
         text-align: center;
         align-items: center;
