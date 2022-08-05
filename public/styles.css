@@ -325,11 +325,11 @@ and (max-width: 667px){
 }
 
     .selected{
+        font-size: 90px;
         font-weight: 500;
         font-family: 'Sansita Swashed', cursive;
         color: #fff;
-        font-size: 100px;
-        width: 90%;
+        
     }
 
     .web{
