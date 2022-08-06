@@ -253,14 +253,14 @@ a:hover{
   .copyright{
     color: #f1f1f1;
     font-size: 16px;
-    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Manrope', sans-serif;
     padding: 7px;
 }
 
 .privacy{
     color:#fff;
     font-size: 16px;
-    font-family: inherit;
+    font-family: 'Manrope', sans-serif;
     padding: 3px;
 }
 
