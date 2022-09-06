@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2101 1420" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(3.125,0,0,3.125,0,0)">
+        <g id="Selected-Works" serif:id="Selected Works" transform="matrix(0.742137,0,0,0.742137,-160.083,-26.9443)">
+            <clipPath id="_clip1">
+                <rect x="329.946" y="106.584" width="677.155" height="471.611"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1.00242,0,0,1.03808,-0.806108,-4.05864)">
+                    <g>
+                        <g>
+                            <g transform="matrix(1.3951,0,0,1.3951,-217.468,-70.7196)">
+                                <circle cx="762.601" cy="235.385" r="92.392" style="fill:rgb(229,93,135);"/>
+                            </g>
+                            <g transform="matrix(1,0,0,1,344.455,144.378)">
+                                <circle cx="580.524" cy="254.958" r="80.497" style="fill:rgb(95,195,228);"/>
+                            </g>
+                            <g transform="matrix(1,0,0,1,143.685,-222.75)">
+                                <circle cx="508.336" cy="517.846" r="117.063" style="fill:rgb(95,195,228);"/>
+                            </g>
+                            <g transform="matrix(1,0,0,1,300.587,277.427)">
+                                <circle cx="325.063" cy="174.462" r="91.888" style="fill:rgb(92,133,112);"/>
+                            </g>
+                            <g transform="matrix(1,0,0,1,-32.7272,-97.6783)">
+                                <circle cx="821.259" cy="529.678" r="128.895" style="fill:rgb(199,91,203);"/>
+                            </g>
+                            <g transform="matrix(1,0,0,1,-519.294,73.2587)">
+                                <circle cx="1010.32" cy="383.413" r="73.259" style="fill:rgb(199,91,203);"/>
+                            </g>
+                            <g transform="matrix(1.56693,0,0,1.56693,-319.962,-457.511)">
+                                <circle cx="480.895" cy="423.944" r="63.944" style="fill:rgb(240,152,25);"/>
+                            </g>
+                            <g transform="matrix(1.19272,0,0,1.19272,65.942,-83.9695)">
+                                <circle cx="294.979" cy="386.559" r="58.783" style="fill:rgb(92,133,112);"/>
+                            </g>
+                            <g transform="matrix(1,0,0,1,282.965,-31.6259)">
+                                <circle cx="448.923" cy="206.434" r="31.972" style="fill:rgb(237,222,93);"/>
+                            </g>
+                            <g transform="matrix(1,0,0,1,-81.8181,245.706)">
+                                <circle cx="615.58" cy="137.706" r="44.056" style="fill:rgb(240,152,25);"/>
+                            </g>
+                            <g transform="matrix(1.42824,0,0,1.42824,-851.011,-13.886)">
+                                <circle cx="990.937" cy="165.65" r="40.783" style="fill:rgb(229,93,135);"/>
+                            </g>
+                        </g>
+                        <g transform="matrix(1,0,0,1,208.809,-48.1783)">
+                            <circle cx="282.218" cy="343.275" r="88.316" style="fill:rgb(237,222,93);"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,-41.9982,36.9565)">
+            <text x="243.819px" y="190.199px" style="font-family:'Raleway-LightItalic', 'Raleway';font-weight:300;font-style:italic;font-size:56px;">SELE<tspan x="372.227px 408.627px " y="190.199px 190.199px ">CT</tspan>ED</text>
+            <text x="228.643px" y="246.199px" style="font-family:'Raleway-LightItalic', 'Raleway';font-weight:300;font-style:italic;font-size:56px;">AR<tspan x="298.811px 331.235px 385.387px " y="246.199px 246.199px 246.199px ">TWO</tspan>RKS</text>
+        </g>
+    </g>
+</svg>
