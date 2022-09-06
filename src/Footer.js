@@ -1,5 +1,5 @@
 import React from 'react'
-import Lexi from './pictures/sexylexi.jpg'
+
 import { FaInstagram, FaGithub } from "react-icons/fa"
 
 export default function Footer() {
