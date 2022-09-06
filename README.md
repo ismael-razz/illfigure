@@ -1,3 +1,7 @@
+This is my personal website made with HTML, CSS, JS, React and launched with Netlify. 
+This has some of my work and experience, along with other personal mementos. 
+Enjoy!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
