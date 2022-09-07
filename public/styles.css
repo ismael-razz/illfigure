@@ -263,7 +263,7 @@ footer p{
 
 
 @media only screen and (min-device-width: 320px){
-    .navbar{
+    nav{
        width: 50%;
     }
 
