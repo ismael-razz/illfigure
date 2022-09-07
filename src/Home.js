@@ -29,8 +29,18 @@ const Home = () => {
   direction="normal"
   timing="ease"
   iteration="1"
-  fillMode="forwards">Hey There </MovingComponent></div>
+  fillMode="forwards">Hey There</MovingComponent>
+  <MovingComponent
+    type="fadeOut"
+  duration="2000ms"
+  delay="2s"
+  direction="reverse"
+  timing="ease"
+  iteration="1"
+  fillMode="forwards">
+    <div className='name'> <h1>I'm Ismael</h1></div> </MovingComponent></div>
   </div>
+
       </Parallax>
     </>
   )
