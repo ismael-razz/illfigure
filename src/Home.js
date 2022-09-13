@@ -22,14 +22,6 @@ const Home = () => {
       </nav>
      </div>
      <div className='welcome'>
-     <MovingComponent
-     type="fadeOut"
-  duration="1000ms"
-  delay="2s"
-  direction="normal"
-  timing="ease"
-  iteration="1"
-  fillMode="forwards">Hey There</MovingComponent>
   <MovingComponent
     type="fadeOut"
   duration="2000ms"
