@@ -285,6 +285,10 @@ footer p{
     }
 }
 @media only screen and (min-device-width: 320px){
+    .navbar{
+       
+        width: 50%;
+     }
     .artworks{
         margin: 2%;
     }
