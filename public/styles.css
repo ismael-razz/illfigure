@@ -274,11 +274,17 @@ footer p{
     .welcome{
        margin-left: auto;
        margin-right: auto;
-       margin-top: 10%;
+       margin-top: 5%;
         align-items: center;
 
     }
 
+
+    .about p{
+        margin-top: 10%;
+    }
+}
+@media only screen and (min-device-width: 320px){
     .artworks{
         margin: 2%;
     }
@@ -288,7 +294,7 @@ footer p{
         width: 50%;
         border-radius: 50%;
     }
-
+    
     .about p{
         margin-top: 10%;
     }
