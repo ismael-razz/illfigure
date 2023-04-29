@@ -38,6 +38,12 @@ body{
     margin-top: 25%;
 }
 
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 ul{
     text-align: center;
     position: relative;
@@ -50,8 +56,7 @@ li{
 }
 
 nav{
-    align-items: center;
-    text-align: center;
+    display: flex;
    justify-content: center;
    margin-top: 2rem;
 }
@@ -267,8 +272,8 @@ footer p{
 
 @media only screen and (max-device-width: 320px){
     .navbar{
-       
-       width: 50%;
+       display: flex;
+       justify-content: center;
     }
 
     .welcome{
