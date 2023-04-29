@@ -22,7 +22,7 @@ const Home = () => {
   iteration="1"
   fillMode="forwards">
     <div className='name'> <h1>I'm Ismael</h1></div> </MovingComponent></div>
-  </div>
+  
 
       </Parallax>
     </>
