@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './Navbar'
 import Film from './pictures/sunsetfilm.jpg'
 import { Parallax } from 'react-parallax'
 import MovingComponent from 'react-moving-text'
@@ -11,17 +12,7 @@ const Home = () => {
       <div style={{height: 800,
      objectFit: 'cover'
      }}>
-     <div className='navbar'>
-      <nav>
-        <ul>
-          <li><a href='/'>Home</a></li>
-          <li><a href='#about'>About</a></li>
-          <li><a href='#work'>Works</a></li>
-          <li><a href='#contact'>Contact</a></li>
-        </ul>
-      </nav>
-     </div>
-     <div className='welcome'>
+     <Navbar />
   <MovingComponent
     type="fadeOut"
   duration="2000ms"
