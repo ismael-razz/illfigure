@@ -2,18 +2,25 @@ import React from 'react'
 
 
 
+
 const About = () => {
   return (
    <>
-   
-   <div>
+  
+     <div>
     <section id='about'>
     <div className='about'>
-      <p>A grateful human being moving with love</p>
+    <h1>YERRRRR</h1>
+    <h1>
+    <span>A visual experience</span>
+    </h1>
+      <h3>Ismael is the name</h3>
     </div>
   </section>
 
 </div>
+     
+  
    </>
   )
 }

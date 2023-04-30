@@ -1,30 +1,35 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Film from './pictures/sunsetfilm.jpg'
+import ZR from './pictures/ZR1.jpg'
+import IR from './pictures/IR1.jpg'
+// import About from './components/About'
+// import Film from './pictures/sunsetfilm.jpg'
 import { Parallax } from 'react-parallax'
-import MovingComponent from 'react-moving-text'
+
 
 const Home = () => {
   return (
     <>
         
-      <Parallax bgImage={Film} blur={0} strength={-400}>
-      <div style={{height: 800,
+      <Parallax bgImage={IR} blur={0} strength={-700}>
+      <div style={{height: 1600,
      objectFit: 'cover'
      }}>
      <Navbar />
-  <MovingComponent
-    type="fadeOut"
-  duration="2000ms"
-  delay="2s"
-  direction="reverse"
-  timing="ease"
-  iteration="1"
-  fillMode="forwards">
-    <div className='name'> <h1>I'm Ismael</h1></div> </MovingComponent></div>
-  
-
+     <p><span>Creative Director/Designer</span></p>
+     
+  </div>
       </Parallax>
+      <Parallax bgImage={ZR} blur={0} strength={-800}>
+      <div style={{height: 1200,
+     objectFit: 'cover'
+     }}>
+     
+     
+  </div>
+      </Parallax>
+      
+      
     </>
   )
 }
