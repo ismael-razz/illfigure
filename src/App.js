@@ -5,8 +5,8 @@ import React from 'react';
 import Home from './Home';
 // import About from './components/About';
 // import Work from './Work';
-import Footer from './Footer';
-import UXWorks from './UXWorks';
+// import Footer from './Footer';
+// import UXWorks from './UXWorks';
 
 const App = () => {
   return (
