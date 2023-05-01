@@ -14,10 +14,9 @@ const App = () => {
     <div className='background-image'>
       <Home />
       
+
       
-      <UXWorks />
-      
-      <Footer />
+     
       </div>
     </>
   );

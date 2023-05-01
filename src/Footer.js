@@ -20,7 +20,7 @@ export default function Footer() {
         <div className='privacy'> 
         <a  href='https://www.freeprivacypolicy.com/live/3f8e97c7-7ceb-4b13-aa0f-1c73820733be'>Privacy Policy</a>
         </div>
-      <p className='copyright'>© 2022 by Razz Illfigure</p>
+      <p className='privacy'>© 2022 by Razz Illfigure</p>
       </footer>
       </section>
     </div>
