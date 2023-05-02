@@ -68,26 +68,29 @@ a:hover{
     color: var(--secondary-color);
 }
 
-.logos{
+.logos {
     display: flex;
     justify-content: center;
-    border: 2px solid linear-gradient(
-        #F09819,
-        #EDDE5D,
-        #FF9A9E,
-        #FAD0C4);
-}
+    
+  }
+  
+  .logos a:hover img {
+    filter: brightness(0.8);
+    /* box-shadow: 0 0 2px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .logos div:not(:last-child) {
+    margin-right: 40px;
+  }
+  
+  .logos div:last-child {
+    margin-right: 0;
+  }
 
-.logos img{
-    height: auto;
-    width: 125px;
-}
 
-.logos img :hover{
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-
-}
-
+  .logo-container{
+    margin-top: 10%;
+  }
 
 .mind{
     text-align: center;
@@ -161,9 +164,11 @@ a:hover{
 .works-title{
     font-family: 'Raleway', sans-serif;
     font-size: var(--font-size-h);
+    font-weight: 600;
     text-align: center;
-    margin: 2%;
+   color: #121212;
     padding: 3%;
+    
 }
 
 button {
@@ -305,12 +310,15 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    background-color: 2px solid linear-gradient(
-        #F09819,
-        #EDDE5D
-        );
+    margin-bottom: 2%;
+    
+      
+        /* position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 10%;
+        margin-top: 9%;
+        z-index: 1; */
   }
   #contact{
     margin-top: 10%;
@@ -357,12 +365,17 @@ footer div{
 
 .privacy{
     font-family: 'Raleway', sans-serif;
-    font-size: var(--font-size-p);
+    font-size: 10px;
+    
 }
 
 .socials{
     font-size: var(--font-size-p);
 }
+
+
+
+
 
 footer a{
     padding: 2%;
@@ -377,9 +390,29 @@ footer a:hover{
 footer p{
     font-family: 'Raleway', sans-serif;
     padding: 2%;
+    margin-bottom: 0;
 }
 
-.footer-bg{
-    background-color: bisque;
-}
 
+
+
+@keyframes change-colors {
+    0% {
+      color: #3a6474;
+    }
+    20% {
+      color: #64743a;
+    }
+    40% {
+      color: #427464;
+    }
+    60% {
+      color: #74733a;
+    }
+    80% {
+      color: #3a6470;
+    }
+    100% {
+      color: #Fc2727;
+    }
+  }
