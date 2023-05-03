@@ -14,7 +14,7 @@ function Dating() {
 
 Dating Apps sucks. I threw a dice on this project what can I say? Gotta start somewhere right?
 
-Some dating apps don’t have what you want. like options to select a particular race/ethnicity or something simple as including intentions.
+Some dating apps don’t have what you want, like options to select a particular race/ethnicity or something simple as including intentions.
 Some are just flooded with bots and unreal accounts. 
 You don't want to waste time with something you don't like or have trouble with, right?
 </p>

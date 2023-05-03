@@ -13,14 +13,14 @@ function UXWorks() {
   
 <div className='logos'>
   
-  <div className='logo-container'>   <a href="https://docs.google.com/presentation/d/17j5QQc8b1xvgg2mJ74FsqKLe79I07I-l0E5m1dMgl6c/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+  <div className='logo-container'>   <a href="https://tome.app/bruh-1e1/udown-dating-app-uxui-clguveifq0u4t3i40pbcjf7f4" target="_blank" rel="noopener noreferrer">
       <img className='logo' style={{ height: '80px', width:'100px', padding: '10px', marginRight:'40px'}} src= {UDown} alt='uDOwn' />
     </a></div>
  
- <div className='logo-container'> <a href="https://docs.google.com/presentation/d/1jnL6jYSoKs7ow9bMJqabfQFGyA7U7i7i9tsvsSn9rus/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+ <div className='logo-container'> <a href="https://tome.app/bruh-1e1/win-meditation-app-uxui-clgv5pozj00wq8t40ibva0f4n" target="_blank" rel="noopener noreferrer">
       <img className='logo' style={{ height: '80px', width: '45px', marginRight:'55px'}} src= {Win} alt='W/in' />
     </a></div>
-   <div className='logo-container'><a href="https://docs.google.com/presentation/d/17j5QQc8b1xvgg2mJ74FsqKLe79I07I-l0E5m1dMgl6c/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+   <div className='logo-container'><a href="https://docs.google.com/presentation/d/17j5QQc8b1xvgg2mJ74FsqKLe79I07I-l0E5m1dMgl6c/edit?usp=sharings" target="_blank" rel="noopener noreferrer">
       <img className='logo' style={{ height: ' 80px', width:'80px'}} src= {RN} alt='YNOTRN' />
     </a></div>
     
