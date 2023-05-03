@@ -20,7 +20,7 @@ function UXWorks() {
  <div className='logo-container'> <a href="https://tome.app/bruh-1e1/win-meditation-app-uxui-clgv5pozj00wq8t40ibva0f4n" target="_blank" rel="noopener noreferrer">
       <img className='logo' style={{ height: '80px', width: '45px', marginRight:'55px'}} src= {Win} alt='W/in' />
     </a></div>
-   <div className='logo-container'><a href="https://docs.google.com/presentation/d/17j5QQc8b1xvgg2mJ74FsqKLe79I07I-l0E5m1dMgl6c/edit?usp=sharings" target="_blank" rel="noopener noreferrer">
+   <div className='logo-container'><a href="https://tome.app/bruh-1e1/ynotrn-creative-networking-app-uxui-clh4yjir804el2y3znkyplh8r" target="_blank" rel="noopener noreferrer">
       <img className='logo' style={{ height: ' 80px', width:'80px'}} src= {RN} alt='YNOTRN' />
     </a></div>
     
