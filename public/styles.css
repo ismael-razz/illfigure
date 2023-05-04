@@ -254,6 +254,30 @@ button {
     transform: translate(0, 100%);
 }
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-bottom: 5%;
+  }
+  
+  .gallery img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-out;
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+
 @keyframes slide-up {
     from {
         transform: translate(0, 100%);
