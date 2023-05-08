@@ -25,9 +25,6 @@ import strut15 from '../pictures/strut15.jpg'
 
 
 
-
-
-
 const GalleryItem = ({ image, onClick }) => {
     return (
       <div className="gallery-item" onClick={onClick}>
@@ -109,9 +106,4 @@ const GalleryItem = ({ image, onClick }) => {
 };
 
 export default Gallery;
-  
-  
-  
-  
-  
   

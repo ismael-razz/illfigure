@@ -322,7 +322,6 @@ button {
     max-height: 90%;
     border-radius: 4px;
   }
-
 @keyframes slide-up {
     from {
         transform: translate(0, 100%);
