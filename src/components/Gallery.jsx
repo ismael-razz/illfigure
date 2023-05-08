@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import Masonry from 'react-masonry-component';
 import and1 from '../pictures/andrew1.jpeg'
 import and2 from '../pictures/andrew2.jpeg'
 import and3 from '../pictures/andrew3.jpeg'
@@ -20,6 +21,9 @@ import strut7 from '../pictures/Strut7.jpg'
 import strut11 from '../pictures/strut11.jpg'
 import strut12 from '../pictures/strut12.jpg'
 import strut14 from '../pictures/strut14.jpg'
+import strut15 from '../pictures/strut15.jpg'
+
+
 
 
 
@@ -32,64 +36,79 @@ const GalleryItem = ({ image, onClick }) => {
       </div>
     );
   };
+  const images = [
+    and1,
+    and2,
+    and3,
+    and4,
+    joe1,
+    joe2,
+    joe3,
+    joe4,
+    group1,
+    group4,
+    group5,
+    group6,
+    ir1,
+    ir2,
+    zr,
+    strut4,
+    strut7,
+    strut11,
+    strut12,
+    strut14,
+    strut15
+  ];
+
+  const masonryOptions = {
+    transitionDuration: 0,
+  };
+
   
   const Gallery = () => {
-    const [selectedIndex, setSelectedIndex] = useState(null);
-  
-    const images = [
-      and1,
-      and2,
-      and3,
-      and4,
-      joe1,
-      joe2,
-      joe3,
-      joe4,
-      group1,
-      group4,
-      group5,
-      group6,
-      ir1,
-      ir2,
-      zr,
-      strut4,
-      strut7,
-      strut11,
-      strut12,
-      strut14,
-    ];
-  
-    const handleImageClick = (index) => {
-      setSelectedIndex(index);
-    };
-  
-    const handlePopupClose = () => {
-      setSelectedIndex(null);
-    };
-  
-    return (
-      <div className="gallery">
-        {images.map((image, index) => (
-          <GalleryItem
-            key={index}
-            image={image}
-            onClick={() => handleImageClick(index)}
-          />
-        ))}
-        {selectedIndex !== null && (
-          <div className="gallery-popup" onClick={handlePopupClose}>
-            <img
-              src={images[selectedIndex]}
-              alt=""
-              className="popup-image"
-            />
-          </div>
-        )}
-      </div>
-    );
+  const [selectedIndex, setSelectedIndex] = useState(null);
+
+  const handleImageClick = (index) => {
+    setSelectedIndex(index);
   };
-  
-  export default Gallery;
+
+  const handlePopupClose = () => {
+    setSelectedIndex(null);
+  };
+
+  const childElements = images.map((image, index) => (
+    <GalleryItem
+      key={index}
+      image={image}
+      onClick={() => handleImageClick(index)}
+    />
+  ));
+
+  return (
+    <>
+    <p style={{textAlign:'center', marginTop: '5%'}}><span style={{fontSize: '160px', fontFamily:'Raleway, sans-serif', fontWeight:'bold', textAlign:'center', color: '#f7f7f7'}}>GALLERY</span></p>
+
+    <div className="gallery">
+      <Masonry
+        className={'my-gallery-class'}
+        elementType={'ul'}
+        options={masonryOptions}
+        disableImagesLoaded={false}
+        updateOnEachImageLoad={false}
+      >
+        {childElements}
+      </Masonry>
+      {selectedIndex !== null && (
+        <div className="gallery-popup" onClick={handlePopupClose}>
+          <img src={images[selectedIndex]} alt="" className="popup-image" />
+        </div>
+      )}
+    </div>
+    </>
+  );
+};
+
+export default Gallery;
   
   
   

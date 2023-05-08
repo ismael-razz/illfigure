@@ -16,7 +16,7 @@ html{
 
 }
 body{
-    background: transparent;
+    background: #f7f7f7;
 }
 
 .welcome{
@@ -254,29 +254,74 @@ button {
     transform: translate(0, 100%);
 }
 
+/* Gallery CSS */
 .gallery {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+   
+  }
+  
+  .my-gallery-class {
     display: flex;
     flex-wrap: wrap;
+  
+    margin-left: 3.5%;
     justify-content: center;
     align-items: center;
-    z-index: 1;
-    margin-bottom: 5%;
   }
   
-  .gallery img {
-    width: 250px;
-    height: 250px;
-    margin: 10px;
+  /* GalleryItem CSS */
+  .gallery-item {
+    position: relative;
+    padding: 8px;
+    width: calc(33.333% - 16px);
+    box-sizing: border-box;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+  }
+  
+  .gallery-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease-out;
   }
   
-  .gallery img:hover {
-    transform: scale(1.2);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  .gallery-item:hover .gallery-image-overlay {
+    opacity: 1;
   }
   
+  /* Gallery Popup CSS */
+  .gallery-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-image {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 4px;
+  }
 
 @keyframes slide-up {
     from {
@@ -398,7 +443,11 @@ footer div{
 }
 
 
-
+.email-button{
+    display: block;
+    margin: 0 auto;
+    
+}
 
 
 footer a{
@@ -425,10 +474,12 @@ footer p{
       color: #3a6474;
     }
     20% {
+        
       color: #64743a;
     }
     40% {
-      color: #427464;
+      
+      color: #Fc2727;
     }
     60% {
       color: #74733a;
@@ -437,6 +488,6 @@ footer p{
       color: #3a6470;
     }
     100% {
-      color: #Fc2727;
+        color: #427464;
     }
   }
