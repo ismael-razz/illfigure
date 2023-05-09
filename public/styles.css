@@ -254,74 +254,58 @@ button {
     transform: translate(0, 100%);
 }
 
-/* Gallery CSS */
-.gallery {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    align-items: center;
-   
-  }
-  
-  .my-gallery-class {
-    display: flex;
-    flex-wrap: wrap;
-  
-    margin-left: 3.5%;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* GalleryItem CSS */
-  .gallery-item {
+.gallery-item {
     position: relative;
-    padding: 8px;
-    width: calc(33.333% - 16px);
-    box-sizing: border-box;
+    cursor: pointer;
   }
   
-  .gallery-image {
+  .gallery-item img {
     width: 100%;
     height: auto;
-    display: block;
-    border-radius: 4px;
+    transition: transform 0.2s ease-in-out;
   }
   
-  .gallery-image-overlay {
+  .gallery-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  .gallery-item .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
     opacity: 0;
-    transition: opacity 0.3s;
-    border-radius: 5px;
+    transition: opacity 0.2s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.6);
   }
   
-  .gallery-item:hover .gallery-image-overlay {
+  .gallery-item:hover .overlay {
     opacity: 1;
   }
   
-  /* Gallery Popup CSS */
-  .gallery-popup {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+  .my-masonry-grid {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
+    margin-top: 10px;
+    margin-left: -10px; /* Adjust as needed */
+    margin-right: 20px;
+    width: auto;
   }
   
-  .popup-image {
-    max-width: 90%;
-    max-height: 90%;
-    border-radius: 4px;
+  .my-masonry-grid_column {
+    padding-left: 30px; /* Adjust as needed */
+    background-clip: padding-box;
   }
+  
+  /* Style the images */
+  .my-masonry-grid img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px; /* Adjust as needed */
+  }
+  
+  
 @keyframes slide-up {
     from {
         transform: translate(0, 100%);

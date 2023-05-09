@@ -9,8 +9,9 @@ import Group from './pictures/Group1.jpg'
 import { Parallax } from 'react-parallax'
 import UXWorks from './UXWorks'
 import Footer from './Footer'
-import Gallery from './components/Gallery'
+import Gallery from './components/Galleryy'
 import Email from './components/Email'
+// import MasonryGallery from './components/MasonryGallery'
 // import About from './components/About'
 
 const Home = () => {
