@@ -42,6 +42,7 @@ const breakpointColumnsObj = {
       columnClassName="my-masonry-grid_column"
     >
       {images.map((image, index) => (
+        // eslint-disable-next-line jsx-a11y/img-redundant-alt
         <img src={image} key={index} alt={`Image ${index + 1}`} style={{
           maxWidth: '100%', height: 'auto'
         }} />
