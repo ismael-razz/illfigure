@@ -36,7 +36,7 @@ const Home = () => {
   </div>
       </Parallax>
       
-      <p style={{textAlign:'center', margin: '2%'}}><span style={{fontSize: '140px', fontFamily:'Raleway, sans-serif', fontWeight:'bold', textAlign:'center'}}>CREATIVE DIRECTOR</span></p>
+      <p style={{textAlign:'center', marginTop: '2%'}}><span style={{fontSize: '160px', fontFamily:'Raleway, sans-serif', fontWeight:'bold', textAlign:'center'}}>CREATIVE DIRECTOR</span></p>
  
       
       <div style={{ background: '#333'}}>
