@@ -50,16 +50,18 @@ const Home = () => {
       
       <UXWorks />
       <Parallax bgImage={Group} blur={1} strength={200}>
-      <div style={{height: 200,
+      <div style={{height: 100,
      objectFit: 'cover'
      }}>
      
     
      
   </div>
-  <p style={{textAlign:'center'}}><span style={{fontSize: '80px', fontFamily:'Raleway, sans-serif', fontWeight:'bold', textAlign:'center', color: 'white'}}>Ismael is my name</span></p>
-  <p style={{textAlign:'center', margin: '3%'}}><span style={{fontSize: '50px', fontFamily:'Raleway, sans-serif', fontWeight:'bold', textAlign:'center', color: 'white'}}>Providing you a different way to see me</span></p>
+  <p style={{textAlign:'center'}}><span style={{fontSize: '180px', fontFamily:'Raleway, sans-serif', fontWeight:'bold', textAlign:'center', color: 'white'}}>ISMAEL</span></p>
+  <p style={{textAlign:'center'}}><span style={{fontSize: '30px', fontFamily:'Raleway, sans-serif', fontWeight:'bold', textAlign:'center', color: 'white'}}>(is-my-yell)</span></p>
+  <p style={{textAlign:'center', margin: '3%'}}><span style={{fontSize: '50px', fontFamily:'Raleway, sans-serif', fontWeight:'bold', textAlign:'center', color: 'white'}}>Out of the box with the right intentions</span></p>
    <Email />
+  
   <Footer />
       </Parallax>
       

@@ -8,9 +8,13 @@ function Email() {
   };
 
   return (
+    <>
     <button onClick={handleEmailClick} className="email-button">
-      HIT ME UP
+      YERRRR
     </button>
+    
+    <p style={{textAlign:'center', marginTop:'2%', marginBottom: '-100px'}}><span style={{fontSize: '80px', fontFamily:'Raleway, sans-serif', fontWeight:'bold', textAlign:'center', color: 'white'}}>CATCH ME IN NY</span></p>
+</>
   );
 }
 

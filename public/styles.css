@@ -172,10 +172,10 @@ a:hover{
 }
 
 button {
-    background-color: #121212;
+    background-color: #f7f7f7;
     border: none;
     border-radius: 25px;
-    color: white;
+    color: #121212;
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -185,8 +185,8 @@ button {
   }
   
   button:hover {
-    background-color: #f7f7f7;
-    color: #121212;
+    background-color: #121212;
+    color: #f7f7f7;
   }
   
   
