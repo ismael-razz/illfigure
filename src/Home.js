@@ -3,7 +3,7 @@ import React from 'react'
 // import ZR from './pictures/ZR1.jpg'
 import IR from './pictures/IR1.jpg'
 import Group from './pictures/Group1.jpg'
-
+import Web from './components/Web'
 // import About from './components/About'
 // import Film from './pictures/sunsetfilm.jpg'
 import { Parallax } from 'react-parallax'
@@ -46,8 +46,8 @@ const Home = () => {
       
       
       <p style={{textAlign:'center', marginTop: '2%'}}><span style={{fontSize: '160px', fontFamily:'Raleway, sans-serif', fontWeight:'bold', textAlign:'center', animation: 'change-colors 5s infinite'}}>DESIGN</span></p>
-      <p style={{textAlign:'center', marginTop: '2%'}}><span style={{fontSize: '80px', fontFamily:'Raleway, sans-serif', fontWeight:'bold', textAlign:'center'}}>WORKS</span></p>
-      
+
+      <Web />
       <UXWorks />
       <Parallax bgImage={Group} blur={1} strength={200}>
       <div style={{height: 100,

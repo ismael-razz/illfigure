@@ -10,7 +10,8 @@ function UXWorks() {
   return (
     <>
   <section id='ux'>
-  
+  <p style={{textAlign:'center', marginTop: '3%'}}><span style={{fontSize: '120px', fontFamily:'Raleway, sans-serif', fontWeight:'bold', color:'#121212', textAlign:'center'}}>UX</span></p>
+
 <div className='logos'>
   
   <div className='logo-container'>   <a href="https://tome.app/bruh-1e1/udown-dating-app-uxui-clguveifq0u4t3i40pbcjf7f4" target="_blank" rel="noopener noreferrer">
