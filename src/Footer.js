@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { FaInstagram, FaGithub } from "react-icons/fa"
 
 export default function Footer() {
@@ -7,9 +6,6 @@ export default function Footer() {
     <div id='contact'>
     <section>  
       <footer>
-      
-      {/* <div>Catch me in NY!</div>
-      <div className='socials'>Or on any of my socials below</div> */}
       <div>
       <a href='https://www.instagram.com/ismael.razz/' className='icons'><FaInstagram /></a>
       <a href='https://github.com/ismael-razz' className='icons'><FaGithub /></a>
